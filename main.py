@@ -10,27 +10,27 @@ for key, value in generated.items():
 
 print()
 
-#print(generated['Inverse'])
+print(generated['Inverse'])
 
-#alg = "U R U' R'"
+alg = "U R U' R'"
 
 #Inverse
-#print(AT.invertAlg(alg))
+print(AlgTrans().invertAlg(alg))
 
 #Rotate x
-#print(AT.transAlg(alg, AT.XTR))
+print(AT.transAlg(alg, AT.XTR))
 
 #Rotate y
-#print(AT.transAlg(alg, AT.YTR))
+print(AT.transAlg(alg, AT.YTR))
 
 #Rotate z
-#print(AT.transAlg(alg, AT.ZTR))
+print(AT.transAlg(alg, AT.ZTR))
 
 #Mirror L/R
-#print(AT.transAlg(alg, AT.MTR))
+print(AT.transAlg(alg, AT.MTR))
 
 #Mirror F/B
-#print(AT.transAlg(alg, AT.STR))
+print(AT.transAlg(alg, AT.STR))
 
 #Mirror U/D
-#print(AT.transAlg(alg, AT.ETR))
+print(AT.transAlg(alg, AT.ETR))

@@ -12,7 +12,7 @@ This is a porting of the javascript code to python.
 
 class AlgTrans:
     
-    def __init__(self, alg):
+    def __init__(self, alg = ""):
         self.alg = alg
 
     ALG_POW = ['', "2", "'"]
